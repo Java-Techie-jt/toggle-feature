@@ -1,0 +1,12 @@
+togglz:
+  features:
+    DISCOUNT_APPLIED:
+      enabled: true
+  features-file: 'file://Users/javatechie/Desktop/feature.properties'
+  console:
+    secured: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'togglz'
